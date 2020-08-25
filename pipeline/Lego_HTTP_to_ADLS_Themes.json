@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_v7a",
+				"name": "Copy Themes",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -54,7 +54,8 @@
 							"type": "LinkedServiceReference"
 						},
 						"path": "logs"
-					}
+					},
+					"dataIntegrationUnits": 2
 				},
 				"inputs": [
 					{
